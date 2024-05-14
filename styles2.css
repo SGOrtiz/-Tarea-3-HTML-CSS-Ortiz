@@ -1,0 +1,132 @@
+:root{
+    --color_blanco:rgb(255, 255, 255);
+    --color_negro:black ;
+    --color_azul: blue;
+    --color_gris:rgb(96, 149, 186);
+}
+
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 30%;
+    padding-right: 5%;
+    font-weight: bold;
+
+}
+body{
+
+    background-color: var(--color_gris);
+}
+header{
+    margin:0%;
+    padding: 0%;
+    
+}
+.titulo{
+    margin:0%;
+    padding: 0%;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.9jXmgIzXsIKfGOh_opjhBAHaEo&pid=Api&P=0&h=180);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:90px;
+    text-align: center;
+    color:var(--color_negro);
+    border: 5px solid skyblue;
+    margin: 0;
+    
+    
+
+
+}
+li{
+    display:inline-block;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+footer{
+    background-color: rgb(161, 182, 176);
+    margin-bottom: 0px;
+}
+.ada{
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.xd{
+    text-decoration: none;
+    font-size:15px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:var(--color_azul);
+    transition:1s;
+}
+.xd:hover{
+    font-size: 30px;
+    color:var(--color_negro)
+}
+.diush{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: var(--color_negro);
+    text-align: center;
+
+}
+h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: var(--color_negro);
+    text-align: center;
+}
+.pie{
+    font-size: 20px;
+    text-align: center;
+}
+.titupie{
+    text-align: center;
+
+}
+.teclado1{
+    border: 2px solid var(--color_negro);
+    margin-left: 10px;
+}
+.teclado2{
+    border: 2px solid var(--color_negro);
+    margin-left: 10px;
+}
+.contenedor{
+    display: flex;
+    
+}
+.conte2{
+    align-self: center;
+    margin-left: 30px;
+}
+.centrar{
+    
+    font-size: 30px;
+    color: var(--color_blanco);
+    border: 1px solidrgb(43, 11, 94);
+    margin: 0;
+    text-decoration: none;
+    background-color: blue;
+    transition: 1s;
+}
+.centrar:hover{
+    font-size: 50px;
+    background-color: red;
+}
+.switch{
+    width:250px;
+    margin-left: 10px;
+
+}
+.conte{
+    display:flex;
+}

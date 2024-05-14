@@ -1,0 +1,31 @@
+:root{
+    
+    --color_negro:black ;
+    --color_azul: blue;
+    --color_gris:rgb(96, 149, 186);
+}
+
+
+.diush{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: var(--color_negro);
+    text-align: center;
+
+}
+img{
+    border: 2px solid var(--color_negro);
+    text-align: center;
+    margin-left: 400px;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:var(--color_negro);
+    transition:1s;
+}
+a:hover{
+    font-size: 50px;
+    color:var(--color_azul)
+}
